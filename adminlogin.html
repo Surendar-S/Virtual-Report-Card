@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lan="en" and dir="Itr">
+	<button type="button" id="back">Back</button>
+	<body>
+		<title> Admin Login Page </title>
+		<center>
+			<!-- Admin Login -->
+			
+			<h2 style="font-size:50px;"> Admin Login </h2>
+			<table>
+				<tr>
+					<td> Username:</td>
+					<td><input type="text" id="username"></td>
+				</tr>
+				<tr>
+					<td> Password: </td>
+					<td><input type="password" id="password"></td>
+				</tr>
+			</table>
+			<button type="submit" id="login">Login</button>
+			
+			<!-- Admin Registration -->
+			
+			<h2 style="font-size:40px;"> Admin Registeration </h2>
+			<table>
+				<tr>
+					<td> Username:</td>
+					<td><input type="text" id="reg_username"></td>
+				</tr>
+				<tr>	
+					<td> Gender: </td>
+					<td id="reg_gender">
+						<input type="radio" name="gender" value="Male"> Male
+						<input type="radio" name="gender" value="Female"> Female
+						<input type="radio" name="gender" value="Others"> Others
+					</td>
+				</tr>
+				<tr>
+					<td> Phone: </td>
+					<td><input type="phone" maxlength="10" id="reg_phonenumber"></td>
+				</tr>
+				<tr>
+					<td> Password: </td>
+					<td><input type="password" id="reg_pass"></td>
+				</tr>
+				<tr>
+					<td> Re-Enter Password: </td>
+					<td><input type="password" id="reg_repass"></td>
+				</tr>
+			</table>
+			<button type="submit" id="reg_submit">Submit</button>	
+		</center>
+		<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-analytics.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-database.js"></script>
+		<script src ="admin_login.js"></script>
+	</body>
+</html>

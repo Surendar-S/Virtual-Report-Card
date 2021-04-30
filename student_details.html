@@ -1,0 +1,159 @@
+<!DOCTYPE html> 
+<html>
+	<body>
+		<button type="button" id="logout">Logout</button>
+		<title>Student Marks</title> 
+		<style>
+			table, th, td
+			{
+				border: 1px solid black;
+				padding: 2px;
+			}
+		</style>
+		<center>
+			<table>
+				<tr>
+					<td>Register Number:</td>
+					<td id="reg_no"></td>
+					<td>Student Name:</td>
+					<td id="stud_name"></td>
+				</tr>
+			</table>
+			
+			<table style="width:50%">
+				<h1> QUATERLY EXAM </h1>
+				<tr>
+					<th> TAMIL </th>
+					<td id="tam1"></td>
+				</tr>
+
+				<tr>
+					<th> ENGLISH </th>
+					<td id="eng1"></td>
+				</tr>
+
+				<tr>
+					<th> MATHS </th>
+					<td id="mat1"></td>
+				</tr>
+
+				<tr>
+					<th> SCIENCE </th>
+					<td id="sci1"></td>
+				</tr>
+
+				<tr>
+					<th> SOCIAL </th>
+					<td id="soc1"></td>
+				</tr>
+
+				<tr>
+					<th> TOTAL </th>
+					<td id="total1"></td>
+				</tr>
+
+				<tr>
+					<th> PERCENTAGE </th>
+					<td id="percent1"></td>
+				</tr>
+
+				<tr>
+					<th> RANK </th>
+					<td id="rank1"></td>
+				</tr>
+
+			</table>
+
+			<table style="width:50%">
+				<h1> HALF-YEARLY EXAM </h1>
+				<tr>
+					<th> TAMIL </th>
+					<td id="tam2"></td>
+				</tr>
+
+				<tr>
+					<th> ENGLISH </th>
+					<td id="eng2"></td>
+				</tr>
+
+				<tr>
+					<th> MATHS </th>
+					<td id="mat2"></td>
+				</tr>
+
+				<tr>
+					<th> SCIENCE </th>
+					<td id="sci2"></td>
+				</tr>
+
+				<tr>
+					<th> SOCIAL </th>
+					<td id="soc2"></td>
+				</tr>
+
+				<tr>
+					<th> TOTAL </th>
+					<td id="total2"></td>
+				</tr>
+
+				<tr>
+					<th> PERCENTAGE </th>
+					<td id="percent2"></td>
+				</tr>
+
+				<tr>
+					<th> RANK </th>
+					<td id="rank2"></td>
+				</tr>
+
+			</table>
+
+			<table style="width:50%">
+				<h1> ANNUAL EXAM </h1>
+				<tr>
+					<th> TAMIL </th>
+					<td id="tam3"></td>
+				</tr>
+
+				<tr>
+					<th> ENGLISH </th>
+					<td id="eng3">  </td>
+				</tr>
+
+				<tr>
+					<th> MATHS </th>
+					<td id="mat3"></td>
+				</tr>
+
+				<tr>
+					<th> SCIENCE </th>
+					<td id="sci3"></td>
+				</tr>
+
+				<tr>
+					<th> SOCIAL </th>
+					<td id="soc3">  </td>
+				</tr>
+
+				<tr>
+					<th> TOTAL </th>
+					<td id="total3">  </td>
+				</tr>
+
+				<tr>
+					<th> PERCENTAGE </th>
+					<td id="percent3">  </td>
+				</tr>
+
+				<tr>
+					<th> RANK </th>
+					<td id="rank3">  </td>
+				</tr>
+			</table>
+		</center>
+		<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-analytics.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-database.js"></script>
+		<script src ="stud_details.js"></script>
+	</body>
+ </html>

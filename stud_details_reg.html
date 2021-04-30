@@ -1,0 +1,162 @@
+<!DOCTYPE html> 
+<html>
+	<body>
+		<title>Marks Entry</title> 
+		<style>
+			table, th, td
+			{
+				border: 1px solid black;
+				padding: 2px;
+			}
+		</style>
+		<button type="button" id="stud_logout">Logout</button>
+		<br> </br>
+		<center>
+			<table>
+				<tr>
+					<td>Register Number:</td>
+					<td><input type="number" id="regno"></td>
+					<td>Student Name:</td>
+					<td><input type="text" name="name" id="stud_name"></td>
+				</tr>
+			</table>
+			
+			<table style="width:50%">
+				<h1>QUATERLY EXAM</h1>
+				<tr>
+					<th>TAMIL</th>
+					<td><input type="number" name="qmark" id="reg_tam1"></td>
+				</tr>
+
+				<tr>
+					<th>ENGLISH</th>
+					<td><input type="number" name="qmark" id="reg_eng1"></td>
+				</tr>
+
+				<tr>
+					<th>MATHS</th>
+					<td><input type="number" name="qmark" id="reg_mat1" ></td>
+				</tr>
+
+				<tr>
+					<th>SCIENCE</th>
+					<td><input type="number" name="qmark" id="reg_sci1"></td>
+				</tr>
+
+				<tr>
+					<th>SOCIAL</th>
+					<td><input type="number" name="qmark" id="reg_soc1"></td>
+				</tr>
+
+				<tr>
+					<th>TOTAL</th>
+					<td><input type="number" name="qmark" id="reg_total1"></td>
+				</tr>
+
+				<tr>
+					<th>PERCENTAGE</th>
+					<td><input type="number" name="qmark" id="reg_percent1"></td>
+				</tr>
+
+				<tr>
+					<th>RANK</th>
+					<td><input type="number" name="qmark" id="reg_rank1"></td>
+				</tr>
+
+			</table>
+
+			<table style="width:50%">
+				<h1>HALF-YEARLY EXAM</h1>
+				<tr>
+					<th>TAMIL</th>
+					<td><input type="number" name="hmark" id="reg_tam2"></td>
+				</tr>
+
+				<tr>
+					<th>ENGLISH</th>
+					<td><input type="number" name="hmark"  id="reg_eng2"></td>
+				</tr>
+
+				<tr>
+					<th>MATHS</th>
+					<td><input type="number" name="hmark" id="reg_mat2"></td>
+				</tr>
+
+				<tr>
+					<th>SCIENCE</th>
+					<td><input type="number" name="hmark" id="reg_sci2"></td>
+				</tr>
+
+				<tr>
+					<th>SOCIAL</th>
+					<td><input type="number" name="hmark" id="reg_soc2"></td>
+				</tr>
+
+				<tr>
+					<th>TOTAL</th>
+					<td><input type="number" name="hmark" id="reg_total2"></td>
+				</tr>
+
+				<tr>
+					<th>PERCENTAGE</th>
+					<td><input type="number" name="hmark" id="reg_percent2"></td>
+				</tr>
+
+				<tr>
+					<th>RANK</th>
+					<td><input type="number" name="hmark" id="reg_rank2"></td>
+				</tr>
+
+			</table>
+
+			<table style="width:50%">
+				<h1>ANNUAL EXAM</h1>
+				<tr>
+					<th>TAMIL</th>
+					<td><input type="number" name="amark" id="reg_tam3"></td>
+				</tr>
+
+				<tr>
+					<th>ENGLISH</th>
+					<td><input type="number" name="amark"  id="reg_eng3"></td>
+				</tr>
+
+				<tr>
+					<th>MATHS</th>
+					<td><input type="number" name="amark" id="reg_mat3"></td>
+				</tr>
+
+				<tr>
+					<th>SCIENCE</th>
+					<td><input type="number" name="amark" id="reg_sci3"></td>
+				</tr>
+
+				<tr>
+					<th>SOCIAL</th>
+					<td><input type="number" name="amark" id="reg_soc3"></td>
+				</tr>
+
+				<tr>
+					<th>TOTAL</th>
+					<td><input type="number" name="amark" id="reg_total3"></td>
+				</tr>
+
+				<tr>
+					<th>PERCENTAGE</th>
+					<td><input type="number" name="amark" id="reg_percent3"></td>
+				</tr>
+
+				<tr>
+					<th>RANK</th>
+					<td><input type="number" name="amark" id="reg_rank3"></td>
+				</tr>
+			</table>
+			<br>		
+			<button type="submit" id="stud_submit">Submit</button>
+		</center>
+		<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-analytics.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-database.js"></script>
+		<script src ="stud_reg.js"></script>
+	</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lan="en" and dir="Itr">
+<body>
+	<title> Home page </title>
+	<center>
+		<!-- Heading -->
+		
+		<h1 style="font-size: 50px;">Login Page</h1>
+		
+		<!-- Teacher Login -->
+		
+		<h2 style="font-size:20px;"> Teacher's Login </h2>
+		<table>
+			<tr>
+				<td>Username:</td>
+				<td><input type="text" id="teacher_user"></td>
+			</tr>
+			<tr>
+				<td>Password: </td>
+				<td><input type="password" id="teacher_pass"></td>
+				<td><button type="button" id="teacher_show_pass">Show Password</button></td>
+			</tr>
+		</table>
+		<button type="submit" id="teacher_login">Login</button>
+		
+		<!-- Student Login -->
+		
+		<h2 style="font-size:20px;"> Student's Login </h2>
+		<table>
+			<tr>
+				<td>Register Number:</td>
+				<td><input type="text" id="stud_user"></td>
+			</tr>
+			<tr>
+				<td>Password: </td>
+				<td><input type="password" id="stud_pass"></td>
+				<td><button type="button" id="stud_show_pass">Show Password</button></td>
+			</tr>
+		</table>
+		<button type="submit" id="stud_login">Login</button>
+		<br>
+		<br>
+		<br>
+		<a href='adminlogin.html'>Admin Login/Registration</a>
+		<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-analytics.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-database.js"></script>
+		<script src="login.js"></script>
+    </center>
+</body>
+</html>
